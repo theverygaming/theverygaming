@@ -14,7 +14,7 @@ jobs:
           filename: profile.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
-          committer_gist: ${{ secrets.METRICS_TOKEN }}
+          committer_gist: ${{ secrets.GIST }}
           # Options
           user: theverygaming
           template: classic
