@@ -11,9 +11,10 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
           filename: profile.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
           # Options
           user: theverygaming
           template: classic
